@@ -51,7 +51,7 @@ const markdownComponents={
 
     //Lists (unordered and ordered)
     ul:asTag('ul', 'list-disc list-inside space-y-1 mb-3'),
-    ol:asTagI('ol', 'list-decimal list-inside space-y-1 mb-3'),
+    ol:asTag('ol', 'list-decimal list-inside space-y-1 mb-3'),
 
     //List items
     li: asTag ('li', 'text-zinc-200')
